@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* multipul class */
+.btn_primary {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 3px;
+    color: #FFF8F3;
+    padding: 5px 10px;
+}
+
+.btn_transfarent {
+    padding: 5px;
+    background-color: #FFF8F3;
+    border: none;
+    border-radius: 3px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+
+.section {
+    padding: 50px 0;
+}
+
+
+
+/* multipul class */
+
+header {
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    width: 100%;
+    /* background: #FFF8F3; */
+    background-repeat: no-repeat;
+    background-position: right bottom, 23px;
+    /* background-size: contain; */
+
+}
+
+header h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+header ul li a {
+    color: #474747;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header span {
+    color: #FD6E0A;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* nav_bar  */
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar ul {
+    display: flex;
+    gap: 12px;
+}
+
+/* hero section */
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.header_dec h4 {
+    font-size: 45px;
+    color: #474747;
+}
+
+.header_dec h1 {
+    font-size: 85px;
+    color: #181818;
+
+}
+
+.header_dec small {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+/* hero section end */
+
+
+/* About section */
+.about_me {
+    margin-top: 50px;
+    text-align: center;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.about_me h4,
+.what_i_do h4 {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.about_me small,
+.what_i_do small {
+    font-size: 16px;
+    color: #757575;
+}
+
+
+.about_desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    padding: 20px 0;
+}
+
+/* About section end */
+
+/* what_i_do */
+.what_i_do {
+    text-align: center;
+}
+
+.i_do {
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    text-align: left;
+    justify-content: space-betwee;
+}
+
+.i_do .desc {
+    box-shadow: 0px 6px 50px 0px #0000000F;
+
+}
+
+.i_do .desc h6 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px  0;
+
+}
+
+/* what_i_do end */
+
+/* summary */
+.summary .head {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #181818;
+}
+
+.summary_con {
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.summary_dec h3 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 700;
+    text-align: left;
+    color: #474747;
+}
+
+.summary_dec h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.summary_dec small {
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.summary_dec p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.summary button{
+    margin: 10px auto;
+    display:block;
+}
+/* summary end */
+
+
+/* msg */
+.sec_col{
+    background: #FFF8F3;
+}
+.msg{
+    display: flex;
+    gap: 60px;
+}
+.lest_con{
+    width: 50%;
+}
+.lest_con h3 , .msg_from h3{
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 700;
+    text-align: left;
+    color: #474747;
+}
+.msg_from input, textarea{
+ display: block;
+ width: 300px;
+ padding: 7px;
+margin-bottom: 15px;
+border-radius: 5px;
+border: none;
+outline: none;
+font-size: 20px;
+}
